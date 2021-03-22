@@ -1,0 +1,357 @@
+@import 'scss/reset';
+@import 'scss/vars';
+@import 'scss/global';
+
+
+.top {
+    padding-top: 46px;
+    height: 770px;
+    background-image: url(../img/top-background.png);
+    background-size: cover;
+    border: 2px solid rgb(69, 219, 0);
+    color: rgb(255, 255, 255);
+
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 150px;
+    }
+
+    &__header-logo {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    &__header-btns {
+        width: 155px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__header-btn {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        @extend %ms-normal;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    &__header-singUp {
+        height: 36px;
+        width: 90px;
+        padding-top: 10px;
+        padding-left: 18px;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 40px;
+    }
+
+    &__box {
+        width: 470px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &__box-title {
+        font-size: 52px;
+        line-height: 63px;
+        margin-bottom: 28.5px;
+    }
+
+    &__box-text {
+        @extend %rt-light;
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 33px;
+
+    }
+
+    &__box-btn {
+        width: 225px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgb(255, 255, 255);
+        background: #FF4E50;
+        border: none;
+        border-radius: 40px;
+    }
+}
+
+.dreamshare-works {
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        color: rgb(255, 255, 255);
+    }
+
+    &__item {
+        width: 300px;
+        height: 400px;
+        padding: 0 25px 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(69, 219, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    &__item1 {
+        background-image: url(../img/reamshare-works__1.png);
+        background-size: cover;
+    }
+
+    &__item2 {
+        background-image: url(../img/reamshare-works__2.png);
+        background-size: cover;
+    }
+
+    &__item3 {
+        background-image: url(../img/reamshare-works__3.png);
+        background-size: cover;
+    }
+
+    &__item-step {
+        width: 70px;
+        height: 20px;
+        padding-top: 4px;
+        padding-left: 14px;
+        background: #FF4E50;
+        border-radius: 40px;
+        @extend %ms-normal;
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 15px;
+    }
+
+    &__item-title {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    &__item-text {
+        @extend %rt-light;
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+.partners {
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 36px;
+    }
+
+    &__item {
+        width: 221px;
+        text-align: center;
+    }
+
+    &__item-img {
+        margin-bottom: 17px;
+    }
+
+    &__item-title {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 18px;
+    }
+
+    &__item-text {
+        @extend %rt-light;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        width: 180px;
+        height: 40px;
+        padding-top: 4px;
+        padding-left: 12px;
+        color: #FF4E50;
+        border: 2px solid #FF4E50;
+        box-sizing: border-box;
+        border-radius: 40px;
+        background-color: #fff;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+}
+
+.ideas {
+
+    &__box-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        color: rgb(255, 255, 255);
+    }
+
+    &__box-item {
+        height: 310px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 5px;
+        border: 2px solid rgb(69, 219, 0);
+
+
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+
+    }
+
+    &__box-item1 {
+        background-image: url(../img/activiry-ideas1.png);
+    }
+
+    &__box-item2 {
+        background-image: url(../img/activiry-ideas2.png);
+    }
+
+    &__box-item3 {
+        background-image: url(../img/activiry-ideas3.png);
+    }
+
+    &__box-item4 {
+        background-image: url(../img/activiry-ideas4.png);
+    }
+
+    &__box-item5 {
+        background-image: url(../img/activiry-ideas5.png);
+    }
+
+    &__box-item6 {
+        background-image: url(../img/activiry-ideas6.png);
+    }
+
+    &__box-item7 {
+        background-image: url(../img/activiry-ideas7.png);
+    }
+}
+
+.crate {
+    padding-bottom: 100px;
+    border-bottom: 2px solid #FF4E50;
+
+    &__box-title {
+        @extend %rt-light;
+        font-size: 18px;
+        line-height: 14px;
+        text-align: center;
+
+        margin-bottom: 25px;
+    }
+
+    &__form {
+        display: block;
+        width: 485px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__form-input {
+        width: 300px;
+        height: 40px;
+
+        outline: none;
+
+        border: 1px solid #D4D4D4;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+        border-radius: 3px;
+    }
+
+    &__form-input::placeholder {
+        @extend %rt-light;
+        font-size: 14px;
+        line-height: 16px;
+        color: #999999;
+    }
+
+    &__form-btn {
+        font-size: 14px;
+        line-height: 17px;
+        color: rgb(255, 255, 255);
+
+        width: 172px;
+        height: 40px;
+        padding-top: 2px;
+        padding-left: 9px;
+
+        background: #FF4E50;
+        border: none;
+        border-radius: 40px;
+    }
+}
+
+.footer {
+    padding-top: 36px;
+    margin-bottom: 36px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__box {
+        width: 545px;
+
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    &__title {
+        font-size: 14px;
+        line-height: 17px;
+        color: #444444;
+    }
+
+
+    &__title-DREAMSHARE {
+        @extend %ms-normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FF4E50 !important;
+    }
+
+    &__list {
+        height: 155px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+
+    &__list-item {
+        @extend %ms-normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #999999;
+    }
+
+    &__designedBy {
+        width: 113px;
+        height: 43px;
+    }
+}
+
+
+
+
+@import 'scss/media';
